@@ -1,4 +1,4 @@
-### Exercise 1: Rectangle Area Calculator
+## Exercise 1: Rectangle Area Calculator
 
 **Problem Description:**
 Write a Rust program that calculates the area of a rectangle. The program should first define two variables for the rectangle’s width and height, then compute the area, and finally print the result in a clear and readable format, for example:
