@@ -1,7 +1,3 @@
-Perfetto, ecco una versione più compatta del README, senza troppe liste:
-
----
-
 # Rust Training Journey
 
 ### From Logical Thinking to Idiomatic Rust
