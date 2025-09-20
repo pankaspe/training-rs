@@ -23,4 +23,5 @@ If you are new to Rust, start with the [official Rust book](https://doc.rust-lan
 ## Exercises
 
  1. [Rectangle Area Calculator](rect-area/src/main.rs)
- 2. [The Gatekeeper (check user age)](the-gatekeeper/src/main.rs)
+ 2. [The Gatekeeper](the-gatekeeper/src/main.rs)
+ 3. [The Structured Surveyor](the-structured-surveyor/src/main.rs)
