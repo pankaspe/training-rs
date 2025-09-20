@@ -1,5 +1,5 @@
 # Training RS
-### From Logical Thinking to Idiomatic Rust
+**From Logical Thinking to Idiomatic Rust**
 
 ## Description
 This project is a progressive path to learn and practice **Rust programming** while training the **logical mindset of a programmer**. Exercises start from simple but meaningful problems and grow in complexity, focusing on structured reasoning, ownership and memory management, and writing idiomatic Rust code. The goal is not just coding, but improving the way you approach and solve problems.
