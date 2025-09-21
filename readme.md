@@ -74,5 +74,3 @@ Each exercise builds upon the concepts introduced in the previous one.
 [ex3]: ./the-structured-surveyor
 [ex4]: ./multiple-area-calculator
 [ex5]: ./the-geometric-shapes-calculator
-
----
