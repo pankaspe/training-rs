@@ -1,6 +1,6 @@
 # Training Rust: From Logical Thinking to Idiomatic Code
 
-[![Rust Version](https://img.shields.io/badge/rust-1.78%2B-orange)](https://www.rust-lang.org/)
+[![Rust Version](https://img.shields.io/badge/rust-2024-orange.svg)](https://www.rust-lang.org/)
 [![License: MIT/Apache-2.0](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue)](https://opensource.org/licenses/MIT)
 
 A curated collection of exercises designed to build a strong foundation in Rust programming and cultivate a robust problem-solving mindset.
