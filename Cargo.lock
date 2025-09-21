@@ -15,7 +15,7 @@ name = "the-gatekeeper"
 version = "0.1.0"
 
 [[package]]
-name = "the-geometric-shapes-area"
+name = "the-geometric-shapes-calculator"
 version = "0.1.0"
 
 [[package]]
