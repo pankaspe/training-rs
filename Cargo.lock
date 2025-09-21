@@ -15,5 +15,9 @@ name = "the-gatekeeper"
 version = "0.1.0"
 
 [[package]]
+name = "the-geometric-shapes-area"
+version = "0.1.0"
+
+[[package]]
 name = "the-structured-surveyor"
 version = "0.1.0"
