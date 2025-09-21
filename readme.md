@@ -12,3 +12,4 @@ For anyone with a **basic understanding of Rust** (compiling and running code). 
 2. [The Gatekeeper](the-gatekeeper/src/main.rs)
 3. [The Structured Surveyor](the-structured-surveyor/src/main.rs)
 4. [The Multiple Area Calculator](multiple-area-calculator/src/main.rs)
+5. [The Geometric Shapes Calculator](the-geometric-shapes-calculator/src/main.rs)
