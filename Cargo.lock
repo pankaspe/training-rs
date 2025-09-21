@@ -19,5 +19,9 @@ name = "the-geometric-shapes-calculator"
 version = "0.1.0"
 
 [[package]]
+name = "the-safe-divider"
+version = "0.1.0"
+
+[[package]]
 name = "the-structured-surveyor"
 version = "0.1.0"
