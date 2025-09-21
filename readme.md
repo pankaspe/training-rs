@@ -69,10 +69,10 @@ Each exercise builds upon the concepts introduced in the previous one.
 | 5 | [The Geometric Shapes Calculator][ex5]         | `geometric-shapes-calculator`    | `enum`, `match` expressions, data composition, floating-point numbers (`f64`). |
 
 <!-- Internal Links to Directories (assuming this structure) -->
-[ex1]: ./rectangle-area
+[ex1]: ./rect-area
 [ex2]: ./the-gatekeeper
 [ex3]: ./the-structured-surveyor
 [ex4]: ./multiple-area-calculator
-[ex5]: ./geometric-shapes-calculator
+[ex5]: ./the-geometric-shapes-calculator
 
 ---
