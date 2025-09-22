@@ -60,19 +60,21 @@ This project is structured as a **Cargo Workspace**. This means that each exerci
 
 Each exercise builds upon the concepts introduced in the previous one.
 
-| # | Exercise                                       | Package Name                     | Key Concepts Introduced                                          |
-|:-:|:-----------------------------------------------|:---------------------------------|:-----------------------------------------------------------------|
-| 1 | [Rectangle Area Calculator][ex1]               | `rect-area`                 | `let`, variables, basic numeric types, `println!`.               |
-| 2 | [The Gatekeeper][ex2]                          | `the-gatekeeper`                 | Functions, parameters, return values (`bool`), `if/else` control flow. |
-| 3 | [The Structured Surveyor][ex3]                 | `the-structured-surveyor`        | `struct`, `impl`, methods (`&self`), associated functions (`new`). |
-| 4 | [The Multiple Area Calculator][ex4]            | `multiple-area-calculator`       | `Vec<T>`, `for` loops, borrowing (`&`), `mut`, `String`.          |
-| 5 | [The Geometric Shapes Calculator][ex5]         | `geometric-shapes-calculator`    | `enum`, `match` expressions, data composition, floating-point numbers (`f64`). |
-| 6 | [The Safe Divider][ex6]                        | `the-safe-divider`               | `Option<T>` (`Some`, `None`), safe error handling, tuples.       |
+| # | Exercise | Package Name | Key Concepts Introduced |
+|:-:|:---|:---|:---|
+| 1 | [Rectangle Area Calculator][ex1] | `rect-area` | `let`, variables, basic numeric types, `println!`. |
+| 2 | [The Gatekeeper][ex2] | `the-gatekeeper` | Functions, parameters, return values (`bool`), `if/else` control flow. |
+| 3 | [The Structured Surveyor][ex3] | `the-structured-surveyor` | `struct`, `impl`, methods (`&self`), associated functions (`new`). |
+| 4 | [The Multiple Area Calculator][ex4] | `multiple-area-calculator` | `Vec<T>`, `for` loops, borrowing (`&`), `mut`, `String`. |
+| 5 | [The Geometric Shapes Calculator][ex5] | `geometric-shapes-calculator` | `enum`, `match` expressions, data composition, floating-point numbers (`f64`). |
+| 6 | [The Safe Divider][ex6] | `the-safe-divider` | `Option<T>` (`Some`, `None`), safe error handling, tuples. |
+| 7 | [The Demanding Number Parser][ex7] | `parser-u32` | `Result<T, E>` (`Ok`, `Err`), `&str`, string methods (`.chars`, `.all`, `.parse`). |
 
 <!-- Internal Links to Directories (assuming this structure) -->
 [ex1]: ./rect-area
 [ex2]: ./the-gatekeeper
 [ex3]: ./the-structured-surveyor
 [ex4]: ./multiple-area-calculator
-[ex5]: ./the-geometric-shapes-calculator
+[ex5]: ./geometric-shapes-calculator
 [ex6]: ./the-safe-divider
+[ex7]: ./parser-u32
