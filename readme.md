@@ -62,7 +62,7 @@ Each exercise builds upon the concepts introduced in the previous one.
 
 | # | Exercise                                       | Package Name                     | Key Concepts Introduced                                          |
 |:-:|:-----------------------------------------------|:---------------------------------|:-----------------------------------------------------------------|
-| 1 | [Rectangle Area Calculator][ex1]               | `rectangle-area`                 | `let`, variables, basic numeric types, `println!`.               |
+| 1 | [Rectangle Area Calculator][ex1]               | `rect-area`                 | `let`, variables, basic numeric types, `println!`.               |
 | 2 | [The Gatekeeper][ex2]                          | `the-gatekeeper`                 | Functions, parameters, return values (`bool`), `if/else` control flow. |
 | 3 | [The Structured Surveyor][ex3]                 | `the-structured-surveyor`        | `struct`, `impl`, methods (`&self`), associated functions (`new`). |
 | 4 | [The Multiple Area Calculator][ex4]            | `multiple-area-calculator`       | `Vec<T>`, `for` loops, borrowing (`&`), `mut`, `String`.          |

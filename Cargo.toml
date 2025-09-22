@@ -1,3 +1,3 @@
 [workspace]
 resolver = "3"
-members = [ "multiple-area-calculator","rect-area", "the-gatekeeper", "the-geometric-shapes-calculator", "the-safe-divider", "the-structured-surveyor"]
+members = [ "multiple-area-calculator", "parser-u32","rect-area", "the-gatekeeper", "the-geometric-shapes-calculator", "the-safe-divider", "the-structured-surveyor"]

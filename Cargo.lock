@@ -7,6 +7,10 @@ name = "multiple-area-calculator"
 version = "0.1.0"
 
 [[package]]
+name = "parser-u32"
+version = "0.1.0"
+
+[[package]]
 name = "rect-area"
 version = "0.1.0"
 
