@@ -1,4 +1,8 @@
-# Training Rust: From Logical Thinking to Idiomatic Code
+# Training Rust
+
+![Training RS](screenshot2.png)
+
+### From Logical Thinking to Idiomatic Code
 
 [![Rust Version](https://img.shields.io/badge/rust-2024-orange.svg)](https://www.rust-lang.org/)
 [![License: MIT/Apache-2.0](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue)](https://opensource.org/licenses/MIT)
