@@ -1,6 +1,6 @@
 # Training Rust
 
-![Training RS](screenshot2.png)
+![Training RS](screenshot.png)
 
 ### From Logical Thinking to Idiomatic Code
 
