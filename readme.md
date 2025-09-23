@@ -74,6 +74,8 @@ Each exercise builds upon the concepts introduced in the previous one.
 | 6 | [The Safe Divider][ex6] | `the-safe-divider` | `Option<T>` (`Some`, `None`), safe error handling, tuples. |
 | 7 | [The Demanding Number Parser][ex7] | `parser-u32` | `Result<T, E>` (`Ok`, `Err`), `&str`, string methods (`.chars`, `.all`, `.parse`). |
 | 8 | [The Functional Surveyor][ex8] | `the-functional-surveyor` | Iterators (`.iter()`), closures, `.filter()`, `.map()`, `.sum()`, `.collect()`. |
+| 9 | [Words Counter][ex9] | `words-counter` | Iterators (`.iter()`), closures, `HashMap`. |
+
 
 <!-- Internal Links to Directories (assuming this structure) -->
 [ex1]: ./rect-area
@@ -84,3 +86,4 @@ Each exercise builds upon the concepts introduced in the previous one.
 [ex6]: ./the-safe-divider
 [ex7]: ./parser-u32
 [ex8]: ./the-functional-surveyor
+[ex9]: ./words-counter
