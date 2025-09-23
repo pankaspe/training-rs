@@ -83,4 +83,4 @@ Each exercise builds upon the concepts introduced in the previous one.
 [ex5]: ./geometric-shapes-calculator
 [ex6]: ./the-safe-divider
 [ex7]: ./parser-u32
-[ex8]: ./functional-surveyor
+[ex8]: ./the-functional-surveyor
