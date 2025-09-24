@@ -92,4 +92,25 @@ fn main() {
             println!("An error occurred while generating the report: {}", e);
         }
     }
+
+    println!("\n\n--- Attempting to generate report for empty user list ---");
+
+    // Now, we test the same logic with the empty vector.
+    match calculate_total_username_length(&empty_users) {
+        Ok(length) => {
+            // This block will not be executed in this case.
+            println!("Length calculation was successful.");
+            print_usernames(&empty_users);
+
+            println!("\nThe total length of all usernames is: {}", length);
+            println!(
+                "\nReport successfully generated for {} users.",
+                empty_users.len()
+            );
+        }
+        Err(e) => {
+            // The `Err` branch will be executed because `empty_users` is empty.
+            println!("An error occurred while generating the report: {}", e);
+        }
+    }
 }
