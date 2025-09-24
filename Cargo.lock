@@ -15,6 +15,10 @@ name = "rect-area"
 version = "0.1.0"
 
 [[package]]
+name = "report-generator"
+version = "0.1.0"
+
+[[package]]
 name = "the-functional-surveyor"
 version = "0.1.0"
 
