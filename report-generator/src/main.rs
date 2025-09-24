@@ -20,12 +20,21 @@ impl User {
 
 /// Calculates the combined length of all usernames in a list.
 /// It BORROWS the vector of users via an immutable reference `&Vec<User>`.
-fn calculate_total_username_length(users: &Vec<User>) -> usize {
+fn calculate_total_username_length(users: &Vec<User>) -> Result<usize, String> {
+    // check if vec is empty
+    if users.is_empty() {
+        return Err(String::from(
+            "Impossibile calcolare: il vettore di utenti è vuoto.",
+        ));
+    }
+
     // We use a functional approach, which is concise and idiomatic in Rust.
-    users
+    let total_length = users
         .iter() // 1. Get an iterator that yields `&User`.
         .map(|user| user.username.len()) // 2. For each `&User`, map it to the length of its username (`usize`).
-        .sum() // 3. Consume the iterator of `usize`s and sum them up.
+        .sum(); // 3. Consume the iterator of `usize`s and sum them up.
+
+    Ok(total_length)
 }
 
 /// Prints all usernames to the console.
@@ -48,15 +57,39 @@ fn main() {
         User::new(String::from("charlie_chaplin")),
     ];
 
-    // We pass an immutable reference `&users` to the function.
-    // `main` still owns `users`.
-    let total_length = calculate_total_username_length(&users);
-    println!("Total length of all usernames: {}", total_length);
+    // We create a second vector to test the error-handling path of our function.
+    let empty_users: Vec<User> = vec![];
 
-    // We can pass another reference to `users` because it was never moved.
-    print_usernames(&users);
+    println!("--- Attempting to generate report for populated user list ---");
 
-    // This line compiles and runs without error, proving that `main`
-    // has retained ownership of the `users` vector throughout the program.
-    println!("\nReport successfully generated for {} users.", users.len());
+    // Call the function and use `match` to handle the `Result` it returns.
+    // This forces us to handle both the success (`Ok`) and failure (`Err`) cases.
+    match calculate_total_username_length(&users) {
+        // --- SUCCESS PATH ---
+        // If the calculation succeeds, the `Ok` variant is returned,
+        // and its content is destructured into the `length` variable.
+        Ok(length) => {
+            println!("Length calculation was successful.");
+
+            // ACTION 1: Call the function to print the user report.
+            // `print_usernames` is called for its "side effect" (printing to the console).
+            // It returns the unit type `()`, so we don't assign its result to a variable.
+            print_usernames(&users);
+
+            // ACTION 2: Print the summary line with the calculated result.
+            println!("\nThe total length of all usernames is: {}", length);
+
+            // This final message confirms that the main logic branch has completed.
+            // This line still works because `main` never gave away ownership of `users`.
+            println!("\nReport successfully generated for {} users.", users.len());
+        }
+
+        // --- FAILURE PATH ---
+        // If the calculation fails, the `Err` variant is returned,
+        // and its content (the error message String) is bound to the `e` variable.
+        Err(e) => {
+            // We handle the error gracefully by printing the descriptive message.
+            println!("An error occurred while generating the report: {}", e);
+        }
+    }
 }
